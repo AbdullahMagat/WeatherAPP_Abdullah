@@ -32,3 +32,7 @@ struct WeatherElement: Codable {
     let main, description, icon: String
 }
 
+struct WeatherElement2: Codable {
+    let id: Int
+    let main, description, icon: String
+}
